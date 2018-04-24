@@ -1,0 +1,26 @@
+{
+  "name": "majuro-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc & node ./dist/app.js --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barend-erasmus/majuro-demo.git"
+  },
+  "author": "Barend Erasmus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barend-erasmus/majuro-demo/issues"
+  },
+  "homepage": "https://github.com/barend-erasmus/majuro-demo#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "majuro": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.6"
+  }
+}
